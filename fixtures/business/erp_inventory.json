@@ -1,0 +1,25 @@
+[
+  {
+    "sku": "SKU-001",
+    "name": "Smart barcode scanner",
+    "warehouse": "WH-SH-01",
+    "current_stock": 18,
+    "safety_stock": 50,
+    "reserved_stock": 12,
+    "supplier_id": "SUP-ACME",
+    "unit_cost_usd": 72.5,
+    "vendor_secret": "ACME-TIER-2-REBATE"
+  },
+  {
+    "sku": "SKU-002",
+    "name": "Thermal label printer",
+    "warehouse": "WH-SH-01",
+    "current_stock": 144,
+    "safety_stock": 80,
+    "reserved_stock": 20,
+    "supplier_id": "SUP-BETA",
+    "unit_cost_usd": 118.0,
+    "vendor_secret": "BETA-PRICE-FLOOR"
+  }
+]
+

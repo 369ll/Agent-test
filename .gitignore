@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.data/
+.assessment/
+.private_evaluator/
+hidden_tests/
+hidden_fixtures/
+evaluation-reports/
+dist/
+build/
+*.egg-info/
+.env

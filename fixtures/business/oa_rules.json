@@ -1,0 +1,8 @@
+{
+  "inventory_replenishment": {
+    "required_approver_role": "ops_manager",
+    "auto_draft_threshold_units": 30,
+    "manual_review_threshold_usd": 5000
+  }
+}
+

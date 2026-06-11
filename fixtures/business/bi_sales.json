@@ -1,0 +1,19 @@
+[
+  {
+    "sku": "SKU-001",
+    "weekly_units": 96,
+    "avg_daily_units_14d": 13.7,
+    "forecast_units_next_14d": 192,
+    "sales_usd_14d": 18432,
+    "stockout_risk": "high"
+  },
+  {
+    "sku": "SKU-002",
+    "weekly_units": 21,
+    "avg_daily_units_14d": 3.2,
+    "forecast_units_next_14d": 45,
+    "sales_usd_14d": 9450,
+    "stockout_risk": "low"
+  }
+]
+

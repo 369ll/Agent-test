@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentops-mini-assessment"
+version = "0.1.0"
+description = "企业 Agent 后端工程能力测评仓库，覆盖 API、RAG、工具调用、安全和管理后台。"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn[standard]>=0.30.0",
+  "pydantic>=2.7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2.0",
+  "httpx>=0.27.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agentops_assessment*"]

@@ -1,0 +1,17 @@
+[
+  {
+    "supplier_id": "SUP-ACME",
+    "risk_level": "medium",
+    "lead_time_days": 9,
+    "recent_delay_count": 2,
+    "recommended_buffer_days": 5
+  },
+  {
+    "supplier_id": "SUP-BETA",
+    "risk_level": "low",
+    "lead_time_days": 4,
+    "recent_delay_count": 0,
+    "recommended_buffer_days": 1
+  }
+]
+

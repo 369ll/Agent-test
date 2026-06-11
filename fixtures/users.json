@@ -1,0 +1,40 @@
+[
+  {
+    "id": "alice",
+    "name": "Alice Ops Manager",
+    "roles": ["ops_manager", "admin"],
+    "permissions": [
+      "tasks:create",
+      "tasks:run",
+      "erp:read",
+      "bi:read",
+      "knowledge:read",
+      "knowledge:internal",
+      "knowledge:restricted",
+      "supplier:read",
+      "oa:approval:write",
+      "admin:read"
+    ]
+  },
+  {
+    "id": "bob",
+    "name": "Bob Analyst",
+    "roles": ["analyst"],
+    "permissions": [
+      "tasks:create",
+      "tasks:run",
+      "erp:read",
+      "bi:read",
+      "knowledge:read",
+      "knowledge:internal",
+      "supplier:read"
+    ]
+  },
+  {
+    "id": "mallory",
+    "name": "Mallory Contractor",
+    "roles": ["contractor"],
+    "permissions": ["knowledge:read"]
+  }
+]
+
